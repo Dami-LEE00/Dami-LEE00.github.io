@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #555;
+}
+
+h1 {
+  margin: 40px 0;
+}
+
+.txt-welcome {
+  margin-bottom: 60px;
+}
+
+.txt-welcome p {
+  margin: 5px 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card img {
+  width: 300px;
+  height: auto;
+}
+
+.card button {
+  padding: 5px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  cursor: pointer;
+}
